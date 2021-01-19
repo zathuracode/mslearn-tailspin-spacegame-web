@@ -2,7 +2,7 @@ trigger:
 - 'build-agent'
 
 pool:
-  vmImage: 'MyAgentPool'
+  name: 'MyAgentPool'
   demands:
     - npm
 
